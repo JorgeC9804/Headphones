@@ -1,0 +1,160 @@
+/*=========================GENERAL============================*/
+* {
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+/*============================================================*/
+/*========================SECTION 1======================*/
+.section-1-1 {
+    background-color: rgb(32, 36, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;/**/
+}
+.section-1-2 {
+    background-color: rgb(12, 42, 61);
+    width: 500px;
+    position: relative;
+    top: 20px;/**/
+    padding: 15px;/**/
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+/*=========================GENERAL==========================*/
+
+.position-fixed {
+    position: fixed;/**/
+}
+.text-center {
+    text-align: center;
+    color: rgb(67, 192, 130);
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 11, 11);
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    background-color: rgb(54, 105, 126);  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100px;
+    padding: 20px;
+}
+.p2 {
+    background-color: rgb(14, 18, 20);   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 50px;
+    height: 337px;
+    width: 500px;
+}
+.p3 {
+    background-color: rgb(54, 105, 126);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100px;
+    padding: 20px;
+}
+.btn-image {
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.btn-image:hover {
+    box-shadow: 0px 0px 40px 0px white;
+    transform: scale(1.2);
+    /*height: 80px;
+    width: 80px;
+    font-size: 50px;*/
+}
+/*============================================================*/
+/*=========================SECTION 2==========================*/
+.section-2-1 {
+    /*background-color: rgb(2, 59, 85);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;/**/
+}
+.section-2-1-block {
+    background-color: rgb(27, 32, 30);
+    padding: 15px;
+    margin: 10px;
+}
+.section-2-1-block-width {
+    width: 100%;
+}
+.principal-label-image {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {/*control de la imagen*/
+    height: 337px;
+    width: 500px;
+    /*position: relative;
+    top: -130px;
+    left: 30px*/
+}
+.image-before {/*control de la imagen*/
+    height: 337px;
+    width: 500px;
+    /*position: relative;
+    right: 30px;
+    top: 130px*/
+}
+.image-principal {/*control de la imagen*/
+    height: 350px;
+    width: 350px;
+}
+
+/*============================================================*/
+/*=========================PRUEBAS DE ANIMACIOM============================*/
+.section-1-2:hover {
+    transform: scale(1.5);
+    /*transition: 1s;*/
+}
+
+/*.section-1-2 {
+    background-color: rgb(12, 42, 61);
+    width: 500px;
+    position: relative;
+    top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}*/
+
+/*============================================================*/
+/*=========================GENERAL============================*/
+
+/*============================================================*/
+/*=========================GENERAL============================*/
+
+/*============================================================*/
+
